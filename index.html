@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Knowledge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;color: rgb(221, 95, 6);font-size: 40px;">General Knowledge</h1>
+        <div id="timer">Time Left: <span id="time">40</span> seconds</div>
+        <div id="question-container">
+            <p id="question">Loading...</p>
+            <div id="answers"></div>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Next</button>
+        <div id="result">
+            <p>Your score: <span id="score">0</span></p>
+            <button id="restart-btn" onclick="restartQuiz()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
